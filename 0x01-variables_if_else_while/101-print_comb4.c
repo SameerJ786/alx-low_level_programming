@@ -11,7 +11,7 @@ int main(void)
 
 	for (first = 0; first < 8; first++)
 	{
-		for (second = first +1; second < 9; second++)
+		for (second = first + 1; second < 9; second++)
 		{
 			for(third = second + 1; third < 10; third++)
 			{
