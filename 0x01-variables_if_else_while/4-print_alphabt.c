@@ -2,7 +2,7 @@
 /**
  * main - write lowercase alphabets excluding q and e
  * Return: 0 (success)
- */
+*/
 int main(void)
 	{
 	char ch = 'a';
