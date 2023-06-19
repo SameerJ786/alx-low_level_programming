@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * Main - Entry Point
+ *
  * Description: this function will print
  * all combinations of two tow digit numbers
  * without repeating any combinations.
