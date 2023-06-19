@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
  * Main - Entry Point
- * Description: this function will print all combinations of two tow digit numbers
+ * Description: this function will print
+ * all combinations of two tow digit numbers
  * without repeating any combinations.
  * Return: 0 (success)
- */
+*/
 int main(void)
 {
 	int i;
