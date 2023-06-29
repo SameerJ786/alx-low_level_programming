@@ -3,7 +3,7 @@
  * _strncpy - function that copys a string
  * @src: the source of strings
  * @dest: destination of the string
- * @n: length of int
+ * @n: number of characters to copy
  * Return: pointer to resulting string dest
 */
 char *_strncpy(char *dest, char *src, int n)
