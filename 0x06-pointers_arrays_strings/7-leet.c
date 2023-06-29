@@ -4,27 +4,19 @@
  * @s: strng to encode
  * Return: address of s
 */
-char *leet(char *str)
+char *leet(char *s)
 {
-	int i;
-	int j;
+	int i, j;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-	char *a = "aAeEoOtTlL";
-	char *b = "4433007711";
-
-	int i = 0;
-	while (str[i])
+	for (i = 0; *(s + i); i++)
 	{
-		j = 0;
-		while (j < 10)
+		for (j = 0; j <= 9; j++)
 		{
-			if (str[i] == a[j])
-			{
-				str[i] = b[j];
-			}
-			j++;
+			if (a[j] == s[i])
+				s[i] = b[j];
 		}
-		i++;
 	}
-	return (str);
+	return (s);
 }
