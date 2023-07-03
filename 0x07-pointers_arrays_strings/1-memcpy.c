@@ -2,7 +2,7 @@
 /**
  * _memcpy - function copies @n bytes from memory @src
  * to memory area @dest
- * @n: fucntion copies
+ * @n: function that copies
  * src: bytes from memory area
  * @dest: to memory area
  * Return: pointer to @dest
