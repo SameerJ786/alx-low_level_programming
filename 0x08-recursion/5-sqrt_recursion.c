@@ -1,23 +1,19 @@
 #include "main.h"
+
 /**
- * check - checks for square root
- * @a: int
- * @b: int
+ * check - checks for the square root
+ * @a:int
+ * @b:int
  *
  * Return: int
-*/
+ */
 int check(int a, int b)
 {
 	if (a * a == b)
-	{
 		return (a);
-	}
 	if (a * a > b)
-	{
 		return (-1);
-	}
-	else
-		return (check(a + 1, b));
+	return (check(a + 1, b));
 }
 
 /**
@@ -28,8 +24,6 @@ int check(int a, int b)
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
-	{
 		return (0);
-		return (check(1, n));
-	}
+	return (check(1, n));
 }
